@@ -20,8 +20,8 @@ My main inspiration is from the product [launchnotes.io](https://launchnotes.io)
 
 **TODO**
 - [x] Create Dev Environnement 
-- [ ] Blueprint releases
-- [ ] Blueprint releases-post
+- [x] Blueprint releases
+- [x] Blueprint releases-post
 - [ ] Template releases
 - [ ] create custom css for this page
 
