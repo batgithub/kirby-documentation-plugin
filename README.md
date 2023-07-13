@@ -7,23 +7,45 @@ The idea is to create a release page accessible from the front end.
 
 I want to avoid dependancy from other services (notion, github...) to provide a good maintenance of kirby websites. 
 
-**Features**
-- Releases page with dev and creator informations
-- Access API for maintenance. It will be consume by another plugin dashboard (I'm also working on it).
+My main inspiration is from the product [launchnotes.io](https://launchnotes.io), with this page for exemple : https://whereby.launchnotes.io/
 
-**How I think I'm going to build this ?**
+
+## MVP
+**Features**
+- Posts 
+- About content
+- Custom logo
+- Private by default - accessible only for connected people
+
+
+**TODO**
+- [ ] Create Dev Environnement 
 - [ ] Blueprint releases
 - [ ] Blueprint releases-post
 - [ ] Template releases
 - [ ] create custom css for this page
 
+## Ideas For the future
+**Features**
+- Access API for maintenance. It will be consume by another plugin dashboard (I'm also working on it).
+- Parameter Public/private accessibility
+- Post tag
+- Filter
+- Pager navigation
+- Date navigation
+- Search
+- Multilangue
+
 
 ## Prototype 
 
 **front end page**
-![Preview release page](https://github.com/batgithub/kirby-release-plugin/blob/main/preview/releases-page.jpg?raw=true)
+![Preview release page](https://github.com/batgithub/kirby-release-plugin/blob/main/preview/Home.jpg?raw=true)
 
 **admin**
-![Preview admin releases](https://github.com/batgithub/kirby-release-plugin/blob/main/preview/releases-admin.jpg?raw=true)
+![Preview admin home](https://github.com/batgithub/kirby-release-plugin/blob/main/preview/admin-home.jpg?raw=true)
 
-![Preview admin releases](https://github.com/batgithub/kirby-release-plugin/blob/main/preview/release-post.jpg?raw=true)
+![Preview admin home tab about](https://github.com/batgithub/kirby-release-plugin/blob/main/preview/admin-home_tab-about.jpg?raw=true)
+
+![Preview admin admin post](https://github.com/batgithub/kirby-release-plugin/blob/main/preview/admin-post.jpg?raw=true)
+
