@@ -19,7 +19,7 @@ My main inspiration is from the product [launchnotes.io](https://launchnotes.io)
 
 
 **TODO**
-- [ ] Create Dev Environnement 
+- [x] Create Dev Environnement 
 - [ ] Blueprint releases
 - [ ] Blueprint releases-post
 - [ ] Template releases
@@ -36,6 +36,11 @@ My main inspiration is from the product [launchnotes.io](https://launchnotes.io)
 - Search
 - Multilangue
 
+## how to install
+Installer as git submodule `git submodule add -f  https://github.com/batgithub/kirby-documentation-plugin.git composer/plugins/kirby-documentation-plugin` 
+
+☝️ customize with your files architecture.
+
 
 ## Prototype 
 
@@ -49,3 +54,6 @@ My main inspiration is from the product [launchnotes.io](https://launchnotes.io)
 
 ![Preview admin admin post](https://github.com/batgithub/kirby-release-plugin/blob/main/preview/admin-post.jpg?raw=true)
 
+## How to dev
+1.  `npm install`to install dependancies
+2. `npm run dev` or `npm run build`
