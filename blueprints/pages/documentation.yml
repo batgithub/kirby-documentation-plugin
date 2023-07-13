@@ -1,0 +1,72 @@
+title: Documentation
+icon: 📢
+options:
+	changeTitle:
+		admin: true
+	changeSlug: 
+		admin: true
+	preview: true
+	read: 
+    admin: true
+	changeStatus: false
+	update: true
+	delete: false
+	duplicate: false
+
+
+tabs:
+	posts:  
+		label: Posts
+		icon: text
+		columns:
+			main:
+				width: 2/3
+				sections:
+					postLive:
+						headline: Published
+						type: pages
+						template : documentation-post
+						status: published
+						text: "{{page.title}}"
+						info: "{{page.published_date}}"
+
+
+			sidebar:
+				width: 1/3	
+				sections:
+					postDraft:
+						headline: Draft
+						type: pages
+						template : documentation-post
+						status: draft
+
+			
+
+	About:
+		label: About
+		icon: book
+		columns:
+			main:
+				width: 2/3
+				fields:
+					about:
+						label: About this website
+						type: textarea
+
+			sidebar:
+				width: 1/3	
+				sections:
+					first:
+						type: fields
+						fields:
+							website_logo:
+								label: Website logo
+								type: files
+								multiple: false
+					imported_files:
+						label: Imported files
+						type: files
+
+
+	
+
