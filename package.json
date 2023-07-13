@@ -1,0 +1,30 @@
+{
+	"name": "kirby-documentation-plugin",
+	"watch": {
+		"js": {
+			"patterns": [
+				"source/js/*"
+			],
+			"extensions": "js",
+			"runOnChangeOnly": true
+		}
+	},
+	"scripts": {
+		"dev": "concurrently \"npm run postcss-watch\" \"npm run watch-js\"",
+		"build": "npm run css & npm run js",
+		"css": "postcss source/styles/main.css --output assets/styles/main.min.css --verbose",
+		"postcss-watch": "postcss source/styles/main.css --output assets/styles/main.css --verbose --watch",
+		"js": "uglifyjs-folder source/js --output assets/js/ --each  --extension .js --config-file uglify.json",
+		"watch-js": "npm-watch js"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.13",
+		"cssnano": "^5.1.14",
+		"npm-watch": "^0.11.0",
+		"postcss": "^8.4.19",
+		"postcss-cli": "^10.0.0",
+		"postcss-import": "^15.0.0",
+		"postcss-nested": "^6.0.0",
+		"uglifyjs-folder": "^3.1.4"
+	}
+}

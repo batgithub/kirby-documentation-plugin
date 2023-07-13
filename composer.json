@@ -1,0 +1,31 @@
+{
+    "name": "baptiste/kirby-documentation-plugin",
+    "description": "Create documentation for your website : changelog, release, tutoriel...",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "version": "0.1.0",
+    "config": {
+        "optimize-autoloader": true
+    },
+    "authors": [
+        {
+            "name": "Baptiste lhopitault",
+            "homepage": "https://repliq.fr"
+        }
+    ],
+    "extra": {
+        "installer-name": "kirby-documentation-plugin"
+    },
+    "support": {
+		"issues": "https://github.com/batgithub/kirby-documentation-plugin/issues",
+		"source": "https://github.com/batgithub/kirby-documentation-plugin"
+	},
+    "keywords": [
+        "kirby3",
+        "kirby3-cms",
+        "kirby3-plugin"
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    }
+}
