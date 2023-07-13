@@ -50,7 +50,7 @@ Installer as git submodule `git submodule add -f  https://github.com/batgithub/k
 **admin**
 ![Preview admin home](https://github.com/batgithub/kirby-release-plugin/blob/main/preview/admin-home.jpg?raw=true)
 
-![Preview admin home tab about](https://github.com/batgithub/kirby-release-plugin/blob/main/preview/admin-home_tab-about.jpg?raw=true)
+![Preview admin home tab about](https://github.com/batgithub/kirby-documentation-plugin/blob/main/preview/admin-home%20_%20tab-about.jpg?raw=true)
 
 ![Preview admin admin post](https://github.com/batgithub/kirby-release-plugin/blob/main/preview/admin-post.jpg?raw=true)
 
