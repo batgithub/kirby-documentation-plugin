@@ -12,7 +12,7 @@
 	"scripts": {
 		"dev": "concurrently \"npm run postcss-watch\" \"npm run watch-js\"",
 		"build": "npm run css & npm run js",
-		"css": "postcss source/styles/main.css --output assets/styles/main.min.css --verbose",
+		"css": "postcss source/styles/main.css --output assets/styles/main.css --verbose",
 		"postcss-watch": "postcss source/styles/main.css --output assets/styles/main.css --verbose --watch",
 		"js": "uglifyjs-folder source/js --output assets/js/ --each  --extension .js --config-file uglify.json",
 		"watch-js": "npm-watch js"

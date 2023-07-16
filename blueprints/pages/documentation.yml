@@ -49,9 +49,17 @@ tabs:
 			main:
 				width: 2/3
 				fields:
-					about:
-						label: About this website
-						type: textarea
+					main_navigation:
+            label: Main navigation
+            type: structure
+            fields:
+              label:
+                type: text
+              link:
+                type: pages
+                multiple: false
+              url: 
+                type: url
 
 			sidebar:
 				width: 1/3	
