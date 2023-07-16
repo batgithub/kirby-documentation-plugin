@@ -42,9 +42,9 @@ tabs:
 
 			
 
-	About:
-		label: About
-		icon: book
+	configuration:
+		label: Configuration
+		icon: cog
 		columns:
 			main:
 				width: 2/3

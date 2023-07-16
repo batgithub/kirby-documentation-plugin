@@ -19,7 +19,7 @@ tabs:
 			main:
 				width: 2/3
 				fields:
-					about:
+					main_content:
 						label: Content
 						type: textarea
 

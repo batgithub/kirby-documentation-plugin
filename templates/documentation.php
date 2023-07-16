@@ -24,7 +24,7 @@
         </section>
         <section>
             <?php foreach($page->children() as $item): ?>
-                <?php snippet('modules/post', ['item'=>$item]) ?>
+                <?php snippet('modules/post', ['item' => $item]) ?>
             <?php endforeach;  ?>
         </section>
 
